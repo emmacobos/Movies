@@ -41,6 +41,11 @@ $('#searchForm').on('submit',(e) => {
       });
   }
 
+
+
+
+
+  
    function movieSelected(id){
      sessionStorage.setItem('movieId',id);
      window.location = 'movie.html';
