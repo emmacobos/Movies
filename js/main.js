@@ -25,7 +25,7 @@ $('#searchForm').on('submit',(e) => {
           output += `
           <div class="col-md-3">
             <div class="well text-center">
-                <img class="movie-poster" src="${movie.Poster}">
+                <img class="movie-poster" src="${movie.Poster}" alt="Name of the movie">
                 <h4>${movie.Title}</h4>
                 <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-movies btn-primary" href="#">Movie Details</a>
             </div>
